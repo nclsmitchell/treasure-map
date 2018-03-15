@@ -7,7 +7,7 @@ const Cell = (props) => {
 
   return (
 		 <div className={"cell " + value.toLowerCase()[0]}>
-      <span>{ value }</span>
+      <span>{ value.slice(1,) }</span>
      </div>
 	);
 };
