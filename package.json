@@ -4,9 +4,7 @@
   "private": true,
   "dependencies": {
     "classnames": "^2.2.5",
-    "prop-types": "^15.6.1",
     "react": "^16.2.0",
-    "react-component-grid": "^0.2.2",
     "react-dom": "^16.2.0",
     "react-loading": "^1.0.3",
     "react-redux": "^5.0.7",
