@@ -1,0 +1,13 @@
+/* Textarea */
+
+.field-line {
+  margin: 20px 0;
+}
+
+.field-line textarea {
+  height: 100px;
+  line-height: 15px;
+  width: calc(218px);
+  padding: 8px 10px;
+  resize: none;
+}

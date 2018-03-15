@@ -1,0 +1,6 @@
+/* Map pagination */
+
+.map-pagination {
+  display: flex;
+  justify-content: space-between;
+}
