@@ -8,7 +8,7 @@ class Grid extends Component {
   renderRows = () => {
     return (
       this.props.rows.map(row => {
-        return(
+        return (
           <Row cells={ row } />
         );
       })

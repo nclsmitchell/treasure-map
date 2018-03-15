@@ -4,14 +4,14 @@
   display: flex;
   position: relative;
   border: 1px solid #efefef;
-  height: 60px;
-  width: 60px;
+  height: 80px;
+  width: 80px;
 }
 
 .cell span {
   text-align: center;
   width: 100%;
-  line-height: 62px;
+  line-height: 76px;
   font-size: 18px;
   opacity: 1;
 }

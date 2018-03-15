@@ -7,12 +7,13 @@ import Button from '../components/Button';
 import Textarea from '../components/Textarea';
 import Grid from '../components/Grid';
 import Pagination from './Pagination';
+import Leaderboard from '../components/Leaderboard';
 
 import '../css/treasureMap.css';
 
 class TreasureMap extends Component {
 	state = {
-		value: "C - 3 - 4\nM - 1 - 0\nM - 2 - 1\nT - 0 - 3 - 2\nT - 1 - 3 - 3\nA - Lara - 1 - 1 - S - AADADAGGA"
+		value: "C - 3 - 4\nM - 1 - 0\nM - 2 - 1\nT - 0 - 3 - 2\nT - 1 - 3 - 3\nA - Lara - 1 - 1 - S - AADADAGGA\n# Add any row starting with M, T or A"
 	};
 
 	parse = () => {
@@ -40,6 +41,18 @@ class TreasureMap extends Component {
     }
   }
 
+  renderLeaderboard = () => {
+    const { map } = this.props;
+    if (Object.keys(map.leaderboard).length > 0) {
+      return (
+        <div className="leaderboard-wrapper">
+          <h3>Leaderboard</h3>
+          <Leaderboard scores={map.leaderboard} />
+        </div>
+      );
+    }
+  }
+
 	render = () => {
 		const { active, loading } = this.props;
 
@@ -58,6 +71,7 @@ class TreasureMap extends Component {
 						loading={loading}
 						onClick={() => this.parse()}
 					/>
+          { this.renderLeaderboard() }
 				</div>
         { this.renderMap() }
 			</div>
