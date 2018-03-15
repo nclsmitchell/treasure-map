@@ -6,6 +6,7 @@
   border: 1px solid #efefef;
   height: 80px;
   width: 80px;
+  font-weight: 600;
 }
 
 .cell span {
@@ -48,6 +49,10 @@
   right: 0;
   bottom: 0;
   left: 0;
+}
+
+.cell.a {
+  color: #fff;
 }
 
 .cell.a::after {
