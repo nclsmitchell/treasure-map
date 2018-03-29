@@ -1,6 +1,6 @@
 # Treasure map
 
-The treasure map is deployed on Heroku (here)[https://treasure-map.herokuapp.com/].
+The treasure map is deployed on Heroku [here](https://treasure-map.herokuapp.com/).
 
 ## How to use?
 
