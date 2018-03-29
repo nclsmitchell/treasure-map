@@ -11,8 +11,8 @@
 
 All parameters are **int** except:
 - `name`: **string**
-- `direction`: **string** in *["N", "E", "S", "W"]* for North, East, South and West
-- `movement`: **string** in *["A", "G", "D"]* for advance, turn left and turn right
+- `direction`: **string** in list `['N', 'E', 'S', 'W']` for *North*, *East*, *South* and *West*
+- `movement`: **string** in list `['A', 'G', 'D']` for *advance*, *turn left* and *turn right*
 
 2. Display any step of the map state with arrows below the map
 
