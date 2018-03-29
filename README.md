@@ -4,10 +4,10 @@
 
 1. Enter your map parameters:
 
-- `C - w - h`: width and height of the map
-- `M - x - y`: position of a mountain
-- `T - x - y - q`: position and quantity of a treasure
-- `A - name - x - y - dir - mov`: position, direction and movements of an adventurer
+- `C - w - h`: the width and height of the map
+- `M - x - y`: the position of a mountain
+- `T - x - y - q`: the position and quantity of a treasure
+- `A - name - x - y - dir - mov`: the name, position, direction and movements of an adventurer
 
 2. Display any step of the map state with arrows below the map
 
