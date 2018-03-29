@@ -7,7 +7,12 @@
 - `C - w - h`: the width and height of the map
 - `M - x - y`: the position of a mountain
 - `T - x - y - q`: the position and quantity of a treasure
-- `A - name - x - y - dir - mov`: the name, position, direction and movements of an adventurer
+- `A - name - x - y - direction - movement`: the name, position, direction and movements of an adventurer
+
+All parameters are **int** except:
+- `name`: **string**
+- `direction`: **string** in *["N", "E", "S", "W"]* for North, East, South and West
+- `movement`: **string** in *["A", "G", "D"]* for advance, turn left and turn right
 
 2. Display any step of the map state with arrows below the map
 
