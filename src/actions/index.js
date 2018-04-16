@@ -1,6 +1,4 @@
-import {
-	SCRIPT_API_URL,
-} from '../_config';
+import { SCRIPT_API_URL } from '../_config';
 
 export const PARSE_LOADING = 'PARSE_LOADING';
 export const PARSE_ERROR = 'PARSE_ERROR';
